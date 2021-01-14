@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="WindowsFormsApp1.PythonClasses.GenreClassifier">
+    <Position X="1" Y="3" Width="3.75" />
+    <InheritanceLine Type="System.Object" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="4.688" Y="1.062" />
+        <Point X="4.688" Y="2.229" />
+        <Point X="2.875" Y="2.229" />
+        <Point X="2.875" Y="3" />
+      </Path>
+    </InheritanceLine>
+    <AssociationLine Name="TrainDataList" Type="System.Double" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.75" Y="3.4" />
+        <Point X="6.125" Y="3.4" />
+        <Point X="6.125" Y="2.562" />
+        <Point X="7.625" Y="2.562" />
+        <Point X="7.625" Y="1.812" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="MiddleLayer" Type="WindowsFormsApp1.PythonClasses.Neuron" FixedFromPoint="true">
+      <Path>
+        <Point X="4.75" Y="5.001" />
+        <Point X="7" Y="5.001" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="OutputLayer" Type="WindowsFormsApp1.PythonClasses.Neuron" FixedFromPoint="true">
+      <Path>
+        <Point X="4.75" Y="4.601" />
+        <Point X="7" Y="4.601" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="InputLayer" Type="WindowsFormsApp1.PythonClasses.Neuron" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.75" Y="4" />
+        <Point X="6.216" Y="4" />
+        <Point X="6.216" Y="4" />
+        <Point X="7" Y="4" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAiAAAAAAAAEgAQAgQAQFBAAEEIAAAAQAkAAAEAAAA=</HashCode>
+      <FileName>PythonClasses\GenreClassifier.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="TrainDataList" />
+      <Property Name="MiddleLayer" />
+      <Property Name="OutputLayer" />
+      <Property Name="InputLayer" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="WindowsFormsApp1.PythonClasses.Neuron">
+    <Position X="7" Y="2.75" Width="3.25" />
+    <InheritanceLine Type="System.Object" ManuallyRouted="true">
+      <Path>
+        <Point X="5" Y="1.062" />
+        <Point X="5" Y="2.26" />
+        <Point X="7.542" Y="2.26" Type="JumpStart" />
+        <Point X="7.708" Y="2.26" Type="JumpEnd" />
+        <Point X="8.625" Y="2.26" />
+        <Point X="8.625" Y="2.75" />
+      </Path>
+    </InheritanceLine>
+    <AssociationLine Name="SpikeRateForData" Type="System.Double" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="10.25" Y="4.59" />
+        <Point X="10.531" Y="4.59" />
+        <Point X="10.531" Y="1.438" />
+        <Point X="8.75" Y="1.438" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="Weights" Type="System.Double" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="10.25" Y="5.005" />
+        <Point X="11" Y="5.005" />
+        <Point X="11" Y="1.688" />
+        <Point X="10.615" Y="1.687" Type="JumpStart" />
+        <Point X="10.448" Y="1.688" Type="JumpEnd" />
+        <Point X="8.75" Y="1.688" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="2.414" Y="-0.848" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAACAgCAAgAAAAgAAAQAAAAIAEAEGIoAEAAAgA=</HashCode>
+      <FileName>PythonClasses\Neuron.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="SpikeRateForData" />
+      <Property Name="Weights" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="System.Object" Collapsed="true">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Struct Name="System.Double" Collapsed="true">
+    <Position X="7.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

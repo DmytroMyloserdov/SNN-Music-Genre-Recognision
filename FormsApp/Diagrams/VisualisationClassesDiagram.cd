@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="WindowsFormsApp1.CallPythonScriptManager">
+    <Position X="4" Y="2.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>ABgAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CallPythonScriptManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsFormsApp1.GenreRecognitionForm">
+    <Position X="8.5" Y="2.25" Width="3.75" />
+    <AssociationLine Name="TrainButton" Type="System.Windows.Forms.Button" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.5" Y="3.312" />
+        <Point X="8.177" Y="3.312" />
+        <Point X="8.177" Y="5.562" />
+        <Point X="6.25" Y="5.562" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="RecognizeButton" Type="System.Windows.Forms.Button" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.5" Y="3.188" />
+        <Point X="7.875" Y="3.188" />
+        <Point X="7.875" Y="5.142" />
+        <Point X="6.25" Y="5.142" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAACAAEAAAAACAAQACAAAABAAAAIAAAIAAAAA=</HashCode>
+      <FileName>MainForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_manager" />
+      <Field Name="TrainButton" />
+      <Field Name="RecognizeButton" />
+      <Field Name="ProgressBar" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="System.Windows.Forms.Form" Collapsed="true">
+    <Position X="8.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Object" Collapsed="true">
+    <Position X="4.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.Forms.Button" Collapsed="true">
+    <Position X="4.75" Y="5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Windows.Forms.ProgressBar" Collapsed="true">
+    <Position X="9.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
